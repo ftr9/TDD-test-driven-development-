@@ -1,0 +1,24 @@
+.filter-container {
+  padding: 20px;
+  flex: 1;
+  background-color: rgba(128, 128, 128, 0.282);
+  text-align: center;
+}
+.filter-container select {
+  padding: 5px;
+  width: 150px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+.filter-container select:focus {
+  outline: none;
+}
+
+.filter-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.filter-container .filter-favour {
+  margin-bottom: 20px;
+}
